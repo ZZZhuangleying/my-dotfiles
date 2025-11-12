@@ -85,6 +85,7 @@ if [ -x /usr/bin/dircolors ]; then
     alias wk='cd ~/workspace'
     alias bl='cd /var/www/myblog/articles'
     alias dd='cd ~/my-dotfiles'
+    alias glog='git log --all --graph --decorate'
 fi
 
 # colored GCC warnings and errors
