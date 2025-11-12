@@ -82,6 +82,9 @@ if [ -x /usr/bin/dircolors ]; then
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
+    alias wk='cd ~/workspace'
+    alias bl='cd /var/www/myblog/articles'
+    alias dd='cd ~/my-dotfiles'
 fi
 
 # colored GCC warnings and errors
